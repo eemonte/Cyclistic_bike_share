@@ -28,8 +28,7 @@ From these insights, your team will design a new marketing strategy to convert c
 ## Step 1: Ask
 
 #### Business task:
-
-Analyze Cyclistic's historical bike trip data from April 2020 to March 2021 to identify trends for better understanding how annual members and casual riders use Cyclistic bikes differently; Then, generate 3 recommendations based on this analysis for Cyclistic's marketing team to design marketing strategies for converting casual riders into annual members.
+> Analyze Cyclistic's historical bike trip data from April 2020 to March 2021 to identify trends on how members and casual riders use Cyclistic bikes differently; Then, generate 3 recommendations based on this analysis for the Cyclistic's marketing team to design marketing strategies for converting casual riders into members.
 
 #### Key stakeholders:
 
@@ -87,5 +86,5 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 
 ***Note:***
 
-For more information of the cleaning process, check this Notebook at [here](p1_data_prepare_process).
+For more information of the cleaning process, check this Notebook at __[here](p1_data_prepare_process.ipynb)__.
 
