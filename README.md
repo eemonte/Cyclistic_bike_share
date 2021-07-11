@@ -13,23 +13,23 @@ From these insights, your team will design a new marketing strategy to convert c
 
 ### Characters and teams:
 
-- #### Cyclistic:
+- **Cyclistic:**
     A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people  with disabilities and riders who can't use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to rider for leisure, but about 30% use them to commute to work each day.
 
-- #### Lily Moreno:
+- **Lily Moreno:**
     The director of marketing and your manager. Moreno is reponsible for the development of campaigns and initiatives to promote the bike-share program. These may include mail, social media, and other channels.
 
-- #### Cyclistic marketing analytics team:
+- **Cyclistic marketing analytics team:**
     A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. You joined this team six months ago and have been busy learning about Cyclistic's mission and business goals -- as well as how you, as a junior data analyst, can help Cyclistic achieve them.
 
-- #### Cyclistic executive team:
+- **Cyclistic executive team:**
     The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program.
 
 ## Step 1: Ask
 
 #### Business task:
 
-    Analyze Cyclistic's historical bike trip data from April 2020 to March 2021 to identify trends for better understanding how annual members and casual riders use Cyclistic bikes differently; Then, generate 3 recommendations based on this analysis for Cyclistic's marketing team to design marketing strategies for converting casual riders into annual members.
+Analyze Cyclistic's historical bike trip data from April 2020 to March 2021 to identify trends for better understanding how annual members and casual riders use Cyclistic bikes differently; Then, generate 3 recommendations based on this analysis for Cyclistic's marketing team to design marketing strategies for converting casual riders into annual members.
 
 #### Key stakeholders:
 
@@ -77,10 +77,6 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 #### These original datasets are downloaded and stored:
 - on Google Drive and locally on my computer
 
-#### For this case study, I use these tools:
-- Pandas
-- Matplotlib
-
 #### For each dataset, I perform these data cleaning and transformations:
 - check the uniqueness of *ride_id*
 - drop any null values in all columns
@@ -91,5 +87,5 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 
 ***Note:***
 
-For more details of the cleaning process, check this Notebook at __[here](p1_data_prepare_process.ipynb)__
+For more information of the cleaning process, check this Notebook at [here](p1_data_prepare_process).
 
