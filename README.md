@@ -1,2 +1,105 @@
 <h2 align='center'> Cyclistic: a bike-share program </h2>
-###### This is a case study project for the Google Data Analytics Certificate
+<h6 aligh='left'> * This is a case study project for the Google Data Analytics Certificate. </h6>
+
+### Introduction:
+
+In this case study, you will perform many real-world tasks of a junior data analyst. In order to answer the key business questions, you will follow the steps of the data analysis process: ***ask***, ***prepare***, ***process***, ***analyze***, ***share***, and ***act***.
+
+### Scenario:
+    
+You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company's future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. 
+
+From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+### Characters and teams:
+
+- #### Cyclistic:
+A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people  with disabilities and riders who can't use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to rider for leisure, but about 30% use them to commute to work each day.
+
+- #### Lily Moreno:
+The director of marketing and your manager. Moreno is reponsible for the development of campaigns and initiatives to promote the bike-share program. These may include mail, social media, and other channels.
+
+- #### Cyclistic marketing analytics team:
+A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. You joined this team six months ago and have been busy learning about Cyclistic's mission and business goals -- as well as how you, as a junior data analyst, can help Cyclistic achieve them.
+
+- #### Cyclistic executive team:
+The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program.
+
+### About the company
+
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
+
+Until now, Cyclistic's marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
+
+Cyclistic's finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, Moreno believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a very good chance to convert casual riders into members. She notes that casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
+
+Moreno has set a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, the marketing analyst team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are interested in analyzing the Cyclistic historical bike trip data to identify trends.
+
+## Step 1: Ask
+
+#### Business task:
+
+> In this case study, I analyze Cyclistic's historical bike trip data from April 2020 to March 2021 to identify trends for better understanding how annual members and casual riders use Cyclistic bikes differently; Then, I generate 3 recommendations based on this analysis for Cyclistic's marketing team to design marketing strategies for converting casual riders into annual members.
+
+#### Key stakeholders:
+
+- Lily Moreno -- the director of Cyclistic marketing team
+- Cyclistic marketing analytics team
+- Cyclistic executive team
+
+## Step 2: Prepare
+
+#### The data I used in this case study can be downloaded from __[here.](https://divvy-tripdata.s3.amazonaws.com/index.html)__
+
+- **Note:** the datasets have a different name because Cyclistic is a fictional company. For the purpose of this case study, the datasets are appropriate and will enable to answer the business questions. 
+
+#### The data contains 12 datasets in total:
+
+Each dataset contains bike trip data of a month from April 2020 to March 2021, and it is consisted of 13 columns described as below:
+
+|Column|This column measures|
+| :---: | :---: |
+| *ride_id* | unique id of each bike ride initiated |
+| *rideable_type* | 3 types of bikes used by Cycslistic |
+| *started_at* | start date and time of each bike ride |
+| *ended_at* | end date and time of each bike ride |
+| *start_station_name* | bike station name where each bike ride starts |
+| *start_station_id* | bike station id where each bike ride starts |
+| *end_station_name* | bike station name where each bike ride ends |
+| *end_station_id* | bike station id where each bike ride ends |
+| *start_lat* | latitude of bike station where each bike ride starts |
+| *start_lng* | longitude of biek station where each bike ride starts |
+| *end_lat* | latitude of bike station where each bike ride ends |
+| *end_lng* | longitude of bike station where each bike ride ends |
+| *member_casual* | whether a bike rider is a member of Cyclistic program or not |
+
+#### After examining the data, I believe the data meets the ROCCC standard:
+The data is reliable, original, comprehensive, current, and cited:
+- it has been made available under this __[license](https://www.divvybikes.com/data-license-agreement)__ by Motivate International Inc with permissions from the City of Chicago's Divvy bicycle sharing service; 
+- it is owned by the City of Chicago; 
+- it is updated by Motivate International Inc on a monthly basis.
+
+#### The potential problems with the data:
+The data is provided "as-is" by Motivated International Inc. Therefore, there are certain amount of invalid data in the data. As a result, the data requires some cleaning and transformation before it can be applied for further analysis.
+
+## Step 3: Process
+
+#### These original datasets are downloaded and stored:
+- on Google Drive and locally on my computer
+
+#### For this case study, I use these tools:
+- Pandas
+- Matplotlib
+
+#### For each dataset, I perform these data cleaning and transformations:
+- check the uniqueness of *ride_id*
+- drop any null values in all columns
+- check the data types of each column, and convert to the correct type if necessary
+- check the consistency between *start_station_name* and *start_station_id*
+- check the consistency between *end_station_name* and *end_station_id*
+- drop irrelevant columns: *start_lat*, *start_lng*, *end_lat*, *end_lng*
+
+***Note:***
+
+For more details of the cleaning process, check this Notebook at __[here]__
+
