@@ -4,12 +4,12 @@
 ### Introduction:
 
 In this case study, you will perform many real-world tasks of a junior data analyst. In order to answer the key business questions, you will follow the steps of the data analysis process:
-- ***[ask](#Step-1:-Ask)***
-- ***[prepare](#Step-2:-Prepare)***
-- ***[process](#Step-3:-Process)***
-- ***[analyze](#Step-4:-Analyze)***
-- ***[share](#Step-5:-Share)***
-- ***[act](#Step-6:-Act)***
+- ***[ask](#step-1-ask)***
+- ***[prepare](#step-2-prepare)***
+- ***[process](#step-3-process)***
+- ***[analyze](#step-4-analyze)***
+- ***[share](#step-5-share)***
+- ***[act](#step-6-act)***
 
 ### Scenario:
     
