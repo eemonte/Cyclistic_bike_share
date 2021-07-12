@@ -3,7 +3,13 @@
 
 ### Introduction:
 
-In this case study, you will perform many real-world tasks of a junior data analyst. In order to answer the key business questions, you will follow the steps of the data analysis process: ***ask***, ***prepare***, ***process***, ***analyze***, ***share***, and ***act***.
+In this case study, you will perform many real-world tasks of a junior data analyst. In order to answer the key business questions, you will follow the steps of the data analysis process:
+- ***[ask](#Step-1:-Ask)***
+- ***[prepare](#Step-2:-Prepare)***
+- ***[process](#Step-3:-Process)***
+- ***[analyze](#Step-4:-Analyze)***
+- ***[share](#Step-5:-Share)***
+- ***[act](#Step-6:-Act)***
 
 ### Scenario:
     
@@ -72,6 +78,7 @@ The data is reliable, original, comprehensive, current, and cited:
 The data is provided "as-is" by Motivated International Inc. Therefore, there are certain amount of invalid data in the data. As a result, the data requires some cleaning and transformation before it can be applied for further analysis.
 
 ## Step 3: Process
+***Note:*** For more information of the cleaning process, check this Notebook at __[here](p1_data_prepare_process.ipynb)__.
 
 #### These original datasets are downloaded and stored:
 - on Google Drive and locally on my computer
@@ -83,8 +90,3 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 - check the consistency between *start_station_name* and *start_station_id*
 - check the consistency between *end_station_name* and *end_station_id*
 - drop irrelevant columns: *start_lat*, *start_lng*, *end_lat*, *end_lng*
-
-***Note:***
-
-For more information of the cleaning process, check this Notebook at __[here](p1_data_prepare_process.ipynb)__.
-
