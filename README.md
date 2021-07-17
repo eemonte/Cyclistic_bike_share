@@ -4,12 +4,12 @@
 ### Introduction:
 
 In this case study, you will perform many real-world tasks of a junior data analyst. In order to answer the key business questions, you will follow the steps of the data analysis process:
-- ***[ask](#step-1-ask)***
-- ***[prepare](#step-2-prepare)***
-- ***[process](#step-3-process)***
-- ***[analyze](#step-4-analyze)***
-- ***[share](#step-5-share)***
-- ***[act](#step-6-act)***
+- ***[Ask](#step-1-ask)***
+- ***[Prepare](#step-2-prepare)***
+- ***[Process](#step-3-process)***
+- ***[Analyze](#step-4-analyze)***
+- ***[Share](#step-5-share)***
+- ***[Act](#step-6-act)***
 
 ### Scenario:
     
@@ -78,7 +78,7 @@ The data is reliable, original, comprehensive, current, and cited:
 The data is provided "as-is" by Motivated International Inc. Therefore, there are certain amount of invalid data in the data. As a result, the data requires some cleaning and transformation before it can be applied for further analysis.
 
 ## Step 3: Process
-***Note:*** For more information of the cleaning process, check this Notebook at __[here](p1_data_prepare_process.ipynb)__.
+***Note:*** For more details of this part, check this Notebook at __[here](p1_data_prepare_process.ipynb)__.
 
 #### These original datasets are downloaded and stored:
 - on Google Drive and locally on my computer
@@ -90,3 +90,64 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 - check the consistency between *start_station_name* and *start_station_id*
 - check the consistency between *end_station_name* and *end_station_id*
 - drop irrelevant columns: *start_lat*, *start_lng*, *end_lat*, *end_lng*
+
+## Step 4: Analyze
+
+***Note:*** For more details of this part, check this Notebook at __[here](p2_data_analysis_visualization.ipynb)__
+
+#### After cleaning the original datasets, I store them on:
+- Google Drive
+- locally on my computer
+
+#### Then, I concatenated these datasets into one dataset named *btrips*, and divide this dataframe into two sub-dataframes:
+- ***m_btrips*** for members
+- ***c_btrips*** for casual riders
+
+#### Next, I perform these analysis using these two sub-dataframes:
+- calculate the amount of members vs. casual riders have used Cyclistic bikes
+- calculate the amount of members vs. casual riders used Cyclistic bikes by months
+- discover the type of bikes members vs. casual riders perfer
+- calculate the length of bike rides members vs. casual riders use
+- discover which day in a week that members vs. casual riders start their bike rides
+- calculate the average length of bike rides members vs. casual riders use based on days in a week
+- discover the top 5 bike stations members vs. casual riders visited most frequently to start their bike rides
+
+#### Finally, I identify these trends of how members and casual riders use Cyclistic bikes differently:
+- 41% Cyclistic users are casual riders.
+- The amount of Cyclistic bikes used by members and casual riders has been declining between August to January.
+- 82% casual riders have used docked bikes.
+- For bike rides within 12 hours, the amount of casual riders are more than members; For bike rides more than 12 hours, the amount of members are significantly more than casual riders.
+- On weekdays, the amount of members use Cyclistic bikes are significantly more than casual riders, however, the amount gap is less wide on weekends.
+- The average length of bike rides of casual riders is less than 20 minutes; Meanwhile, the average length of bike rides of members is over 40 minutes.
+- The top 5 bike stations casual riders start their bike rides are different from the top 5 stations members usually start their bike rides.
+
+## Step 5: Share
+
+***Note:*** For more details of this part, check this PowerPoint at __[here](p3_presentation.pdf)__
+
+#### Based on my analysis, I summarize that annaul members and casual riders use Cyclistic bikes differently via:
+- seasons
+- bike types
+- bike ride lengths
+- weekdays vs. weekends
+- bike stations
+
+## Step 6: Act
+
+***Note:*** For more details of this part, check this PowerPoint at __[here](p3_presentation.pdf)__
+
+#### The final conclusion based on my analysis:
+> From April 2020 to March 2021, 41% of Cyclistic bike users were casual riders. Therefore, it is essential for Cyclistic to design marketing strategies targeted at maximally converting casual riders into annual members.
+
+#### Therefore, I generate 3 recommendations for the Marketing Team:
+1. Offer fare discounts to casual riders using Cyclistic bikes shorter than 12 hours for each ride and/or on weekends.
+1. Design promotions specifically targeted at casual riders between February to July.
+1. Launch digital and non-digital ads at the 5 bike stations that casual riders used most, and put more docked bikes at these stations.
+
+#### Next steps to take:
+- Develop a deeper research on why and why not casual riders would buy Cyclistic annual memberships
+- Generate a comprehensive analysis on how to use digital media to influence casual riders to become members
+
+#### Additional data I could use to expand my findings:
+- Cyclistic's historical bike fare data
+- data from other peer competitors in the Chicago area; data should includes information such as their bike fares charged to members versus non-members and the amount of members purchased their annual memberships.
