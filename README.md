@@ -95,7 +95,7 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 ***Note:*** For more details of this part, check this PowerPoint __[here](p3_presentation.pdf)__
 
 #### The final conclusion based on my analysis:
-> From April 2020 to March 2021, 41% of Cyclistic bike users were casual riders. Therefore, it is essential for Cyclistic to design marketing strategies targeted at maximally converting casual riders into annual members.
+From April 2020 to March 2021, 41% of Cyclistic bike users were casual riders. Therefore, it is essential for Cyclistic to design marketing strategies targeted at maximally converting casual riders into annual members.
 
 #### Therefore, I generate 3 recommendations for the Marketing Team:
 1. Offer fare discounts to casual riders using Cyclistic bikes shorter than 12 hours for each ride and/or on weekends.
