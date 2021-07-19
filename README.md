@@ -4,7 +4,7 @@
 
 ### In this case study, I will follow the steps of the Data Analysis Process:
 #### test
-[Step 1: Ask](p1_data_prepare_process.ipynb)
+[Step 1: Ask](p1_data_prepare_process.ipynb/#step-1-ask)
 1. ***[Ask](#step-1-ask)***
 2. ***[Prepare](#step-2-prepare)***
 3. ***[Process](#step-3-process)***
