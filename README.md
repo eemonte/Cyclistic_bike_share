@@ -1,6 +1,6 @@
 <h2 align='center'> Cyclistic: a bike-share program </h2>
 <h6>*This is a case study for the Google Data Analytics Certificate.</h6>
-<h6>- For a complete instructions about this case study, check https://github.com/eemonte/Cyclistic_bike_share/blob/main/case_study_1_instructions.pdf </h6>
+<h6>- For a complete instructions about this case study, check __[here](instructions.ipynb)__ </h6>
 
 ### In this case study, I will follow the steps of the Data Analysis Process:
 1. ***[Ask](#step-1-ask)***
