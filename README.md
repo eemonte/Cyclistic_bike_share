@@ -1,6 +1,6 @@
 <h2 align='center'> Cyclistic: a bike-share program </h2>
 
-This is a case study for the Google Data Analytics Certificate. For complete instructions about this case study, check __[here](instructions.ipynb)__
+This is a case study for the Google Data Analytics Certificate. For complete instructions about this case study, check __[here](part0_instructions.ipynb)__
 
 ### In this case study, I will follow the steps of the Data Analysis Process:
 1. ***[Ask](#step-1-ask)***
@@ -17,7 +17,7 @@ I analyze Cyclistic's historical bike trip data from April 2020 to March 2021 to
 
 ## Step 2: Prepare
 
-***Note:*** For more details of this part, check this Notebook __[here](p1_data_prepare_process.ipynb)__.
+***Note:*** For more details of this part, check this Notebook __[here](part1_data_prepare_process.ipynb)__.
 
 #### The data I used in this case study can be downloaded from __[here.](https://divvy-tripdata.s3.amazonaws.com/index.html)__
 
@@ -37,7 +37,7 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 
 ## Step 3: Process
 
-***Note:*** For more details of this part, check this Notebook __[here](p1_data_prepare_process.ipynb)__.
+***Note:*** For more details of this part, check this Notebook __[here](part1_data_prepare_process.ipynb)__.
 
 #### These original datasets are downloaded and stored:
 - on Google Drive and locally on my computer
@@ -52,7 +52,7 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 
 ## Step 4: Analyze
 
-***Note:*** For more details of this part, check this Notebook __[here](p2_data_analysis_visualization.ipynb)__
+***Note:*** For more details of this part, check this Notebook __[here](part2_data_analysis_visualization.ipynb)__
 
 #### After cleaning the original datasets, I store them on:
 - Google Drive
@@ -82,7 +82,7 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 
 ## Step 5: Share
 
-***Note:*** For more details of this part, check this PowerPoint __[here](p3_presentation.pdf)__
+***Note:*** For more details of this part, check this PowerPoint __[here](part3_presentation.pdf)__
 
 #### Based on my analysis, I summarize that annaul members and casual riders use Cyclistic bikes differently via:
 - seasons
@@ -93,7 +93,7 @@ The data is provided "as-is" by Motivated International Inc. Therefore, there ar
 
 ## Step 6: Act
 
-***Note:*** For more details of this part, check this PowerPoint __[here](p3_presentation.pdf)__
+***Note:*** For more details of this part, check this PowerPoint __[here](part3_presentation.pdf)__
 
 #### The final conclusion based on my analysis:
 From April 2020 to March 2021, 41% of Cyclistic bike users were casual riders. Therefore, it is essential for Cyclistic to design marketing strategies targeted at maximally converting casual riders into annual members.
